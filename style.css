@@ -1,0 +1,329 @@
+@import url("https://use.typekit.net/yxx7sie.css");
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://use.typekit.net/yxx7sie.css");
+
+#flowers{
+	transform: rotate(90deg);
+	margin: 0;
+}
+.sidebar {
+    grid-area: sidebar;
+    font-family: "battery-park", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 20px;
+  	text-align: center;
+	text-transform: uppercase;
+  }
+h2{
+	font-family: "battery-park", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	text-align: center;
+  	font-size: 5vmin;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px white;
+}
+h3{
+	font-family: "battery-park", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 5vmin;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px white;
+	color: black;
+}
+img{
+	object-fit: contain;
+}
+
+.content5 img{
+	border-radius: 5vmin;
+	object-position: right;
+}
+  .content {
+    grid-area: content;
+    font-size: 9vmin;
+    background-color: #731D24;
+    border-radius: 5vmin;
+	padding: 2vmin;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+
+.content2{
+	grid-area: content2;
+	margin: 2vmin;
+}
+.content3{
+	grid-area: content3;
+	margin: 2vmin;
+}
+.content2 img{
+	border-radius: 3vmin;
+}
+.content4{
+	grid-area: content4;
+	margin: 2vmin;
+}
+.content5{
+	grid-area: content5;
+	font-size: 3.75vmin;
+	color: white;
+}
+.container2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: flex-start;
+}
+h1{
+	font-family: "pf-fuel-decay", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 8vmin;	
+}
+
+.content2,
+.content3,
+.content4 {
+	background-color: #731D24;
+	border-radius: 5vmin;
+	padding: 2vmin;
+  flex: 1;
+  margin: 0 10vmin; 
+}
+
+li{
+	text-shadow: none;
+	font-family: "Courier Prime", monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3vmin;
+	color: #FCF9EA;
+}
+
+.container2 img:hover{
+	opacity: 50%;
+}
+
+  .container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+     "header"
+     "sidebar"
+     "content"
+     "content5"
+     "content2"
+     "content3"
+     "content4"
+     "footer"
+  }
+
+
+.box {
+  background-color: #444;
+  color: black;
+  text-shadow: 2px 2px 2px white;
+  border-radius: 5vmin;
+  padding: 2vmin;
+}
+
+.header,
+.footer {
+	border-radius: 5vmin;
+	background-color: #046032;
+	text-shadow: 2px 2px 2px white;
+    font-family: "battery-park", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 20px;
+  	text-align: center;
+	text-transform: uppercase;
+}
+.content img{
+	border-radius: 3vmin;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	max-width: 100%;
+}
+
+body{
+	background-color: #FCF9EA;
+}
+
+.alt-nav{
+	display: none;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #2B2B2B;
+	font-family: "battery-park", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding:0;
+}
+
+.nav p1 {
+	line-height: 1.5;
+	font-size: 12vmin;
+	color: #F8F1F0;
+	margin-bottom: 2px;
+	padding-left: 1vmin;
+	text-align: center;
+	font-family: "pf-fuel-decay", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #F8F1F0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+#insta{
+	border: 10px solid transparent;
+	border-radius: 5vmin;
+	border-image: url(https://img.freepik.com/free-vector/realistic-grainy-texture_23-2149244602.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1713916800&semt=ais) 30 stretch; 
+}
+
+#tiktok{
+	border: 10px solid transparent;
+	border-radius: 5vmin;
+	border-image: url(https://media.istockphoto.com/id/1420755455/photo/grunge-dirty-background-overlay.jpg?s=612x612&w=0&k=20&c=GNXADxnl5CsMW4otevexYF8Vqpmx4Fw42AO5ggORwJQ=)30 stretch;
+}
+#x{
+	object-fit: cover;
+	border: 10px solid transparent;
+	border-radius: 5vmin;
+	border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb6qnce0cu3hGPBsVXSSaDW4l5Zb9nOpaQmcZG2wJdaw&s) 30 stretch;
+}
+
+@media only screen and (min-width: 768px){
+.nav{
+	display: none;
+}
+
+.container {
+	margin-left: 10vmin;
+	margin-right: 10vmin;
+	grid-gap: 40px;
+	grid-template-columns: auto auto auto;
+	grid-template-areas:
+	"header  header  header"
+	"sidebar sidebar sidebar"
+	"content content content5"
+	"footer  footer  footer"
+	"content2 content3 content4";
+    max-width: 100;
+}
+
+.box {
+  background-color: #046032;
+  border-radius: 5vmin;
+  padding: 10px;
+}
+
+li{
+	font-size: 3.75vmin;
+}
+
+.container p1{
+	font-family: "Courier Prime", monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3.75vmin;
+	margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    display: block;
+    color: #FCF9EA;
+    text-align: justify;
+}
+
+body{
+	background-color: #2B2B2B;
+}
+
+p{
+	font-family: "Courier Prime", monospace;
+	font-weight: 400;
+	font-style: normal;
+	display: block;
+	font-size: 3.75vmin;
+}
+
+.alt-nav {
+  display: flex;
+  width: 100%;
+  text-align: right;
+  background-color: #FCF9EA;
+  text-shadow: 3px 3px 3px #731D24;
+  font-family: "battery-park", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alt-nav-links {
+  color: #2B2B2B;
+  width: 100%;
+  padding-top: 4.2vh;
+  padding-left: 5.4vh;
+}
+
+.alt-nav p1{
+  text-align: center;
+  font-family: "pf-fuel-decay", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 9vmin;
+}
+
+.alt-nav-links li {
+  	list-style: none;
+}
+
+.alt-nav-links a {
+	color: #2B2B2B;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 550;
+	font-size: 5vmin;
+	padding: 20px 20px;
+}
+
+.alt-nav-links a:hover:not(.active) {
+	text-decoration: wavy underline #046032;
+	text-decoration-thickness: 0.25rem;
+}
+
+}
