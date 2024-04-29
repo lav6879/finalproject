@@ -11,24 +11,23 @@
     font-family: "battery-park", sans-serif;
   	font-weight: 400;
   	font-style: normal;
-  	font-size: 20px;
   	text-align: center;
 	text-transform: uppercase;
   }
+
 h2{
 	font-family: "battery-park", sans-serif;
   	font-weight: 400;
   	font-style: normal;
   	text-align: center;
-  	font-size: 5vmin;
-	text-transform: uppercase;
+  	font-size: 2rem;
 	text-shadow: 2px 2px 2px white;
 }
 h3{
 	font-family: "battery-park", sans-serif;
   	font-weight: 400;
   	font-style: normal;
-  	font-size: 5vmin;
+  	font-size: 2rem;
 	text-transform: uppercase;
 	text-shadow: 2px 2px 2px white;
 	color: black;
@@ -43,10 +42,15 @@ img{
 }
   .content {
     grid-area: content;
-    font-size: 9vmin;
+    font-size: 1.5rem;
+    font-family: courier prime;
     background-color: #731D24;
     border-radius: 5vmin;
 	padding: 2vmin;
+  }
+
+  .content p1{
+  	color: white;
   }
 
   .header {
@@ -74,12 +78,20 @@ img{
 }
 .content5{
 	grid-area: content5;
+	font-family: "Courier Prime", monospace;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 3.75vmin;
-	color: white;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
+
 .container2{
 	width: 100%;
-	display: flex;
+	gap: 2rem;
 	justify-content: space-between;
 	align-items: center;
 	margin-left: auto;
@@ -90,7 +102,7 @@ h1{
 	font-family: "pf-fuel-decay", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 8vmin;	
+	font-size: 3rem;	
 }
 
 .content2,
@@ -108,7 +120,6 @@ li{
 	font-family: "Courier Prime", monospace;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 3vmin;
 	color: #FCF9EA;
 }
 
@@ -132,16 +143,15 @@ li{
 
 
 .box {
-  background-color: #444;
+  background-color: #046032;
   color: black;
   text-shadow: 2px 2px 2px white;
-  border-radius: 5vmin;
-  padding: 2vmin;
+  border: 4px;
+  border-color: black;
 }
 
 .header,
 .footer {
-	border-radius: 5vmin;
 	background-color: #046032;
 	text-shadow: 2px 2px 2px white;
     font-family: "battery-park", sans-serif;
@@ -155,11 +165,32 @@ li{
 	border-radius: 3vmin;
 }
 
+.container{
+	margin: 1rem;
+}
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: 0;
 	max-width: 100%;
+}
+li{
+	font-size: 1.5rem;
+}
+.content3{
+	font-size: 1.5rem;
+	font-family: courier prime;
+}
+
+.content2{
+	font-size: 1.5rem;
+	font-family: courier prime;
+}
+
+.content4{
+	font-size: 1.5rem;
+	font-family: courier prime;
 }
 
 body{
@@ -217,8 +248,9 @@ body{
 
 #tiktok{
 	border: 10px solid transparent;
+	filter: grayscale(100%);
 	border-radius: 5vmin;
-	border-image: url(https://media.istockphoto.com/id/1420755455/photo/grunge-dirty-background-overlay.jpg?s=612x612&w=0&k=20&c=GNXADxnl5CsMW4otevexYF8Vqpmx4Fw42AO5ggORwJQ=)30 stretch;
+	border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb6qnce0cu3hGPBsVXSSaDW4l5Zb9nOpaQmcZG2wJdaw&s)30 stretch;
 }
 #x{
 	object-fit: cover;
@@ -228,8 +260,20 @@ body{
 }
 
 @media only screen and (min-width: 768px){
+*{
+	margin: 0;
+}
+
 .nav{
 	display: none;
+}
+
+.content{
+	font-size: 9vmin;
+}
+
+h2{
+	font-size: 3rem;
 }
 
 .container {
@@ -248,12 +292,26 @@ body{
 
 .box {
   background-color: #046032;
-  border-radius: 5vmin;
-  padding: 10px;
+  padding: 3vmin;
 }
 
 li{
 	font-size: 3.75vmin;
+}
+
+.content5{
+	color: white;
+	font-family: "Courier Prime", monospace;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0;
+}
+
+.content4 img{
+	border-radius: 5vmin;
+}
+.content3 img{
+	border-radius: 5vmin;
 }
 
 .container p1{
@@ -279,7 +337,7 @@ p{
 	font-weight: 400;
 	font-style: normal;
 	display: block;
-	font-size: 3.75vmin;
+	font-size: 1rem;
 }
 
 .alt-nav {
@@ -305,11 +363,34 @@ p{
   font-family: "pf-fuel-decay", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 9vmin;
+  font-size: 3.5rem;
 }
 
 .alt-nav-links li {
   	list-style: none;
+}
+h1{
+	font-size: 4rem;
+}
+h3{
+	font-size: 5vmin;
+}
+.content5{
+	max-width: 100%;
+}
+
+li{
+	font-size: 3vmin;
+}
+
+.container2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: flex-start;
 }
 
 .alt-nav-links a {
@@ -317,13 +398,17 @@ p{
 	text-decoration: none;
 	letter-spacing: 2px;
 	font-weight: 550;
-	font-size: 5vmin;
+	font-size: 2.5rem;
 	padding: 20px 20px;
 }
 
 .alt-nav-links a:hover:not(.active) {
 	text-decoration: wavy underline #046032;
 	text-decoration-thickness: 0.25rem;
+}
+
+p{
+	font-size: 3.75vmin;
 }
 
 }
