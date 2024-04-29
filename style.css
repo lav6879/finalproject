@@ -106,6 +106,8 @@ h1{
 	font-size: 3rem;	
 }
 
+.
+
 .content2,
 .content3,
 .content4 {
@@ -200,6 +202,10 @@ body{
 
 .alt-nav{
 	display: none;
+}
+
+.content5 img{
+	border-radius: 5vmin;
 }
 
 .nav {
@@ -316,6 +322,10 @@ li{
 	border-radius: 5vmin;
 }
 .content3 img{
+	border-radius: 5vmin;
+}
+
+.content5 img{
 	border-radius: 5vmin;
 }
 
