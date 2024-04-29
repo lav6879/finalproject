@@ -356,6 +356,7 @@ p{
 }
 
 .alt-nav {
+	padding-bottom: 3rem;
   display: flex;
   width: 100%;
   text-align: right;
