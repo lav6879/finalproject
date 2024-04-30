@@ -106,8 +106,6 @@ h1{
 	font-size: 3rem;	
 }
 
-.
-
 .content2,
 .content3,
 .content4 {
@@ -202,10 +200,6 @@ body{
 
 .alt-nav{
 	display: none;
-}
-
-.content5 img{
-	border-radius: 5vmin;
 }
 
 .nav {
@@ -325,10 +319,6 @@ li{
 	border-radius: 5vmin;
 }
 
-.content5 img{
-	border-radius: 5vmin;
-}
-
 .container p1{
 	font-family: "Courier Prime", monospace;
 	font-weight: 400;
@@ -356,7 +346,6 @@ p{
 }
 
 .alt-nav {
-	padding-bottom: 3rem;
   display: flex;
   width: 100%;
   text-align: right;
